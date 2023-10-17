@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b5ed237-faf5-4834-ab57-034d100ff8e8" name="Changes" comment="Update to JavaFx">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/973af315-1249-4991-b7c3-195dc6161757.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-Sep-23_07_12_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-Sep-23_07_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-Sep-23_07_12__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-Sep-23_07_12__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/config/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/controllers/JobCellController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/controllers/JobViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/controllers/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/database/DBHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/database/DatabaseChangeListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/engine/HtmlParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/engine/PropertiesManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/engine/SceneSwitcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/entity/Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/window/AddJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/com/fo4ik/jobsaver/window/AddJobWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/module-info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +55,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Fo4Ik-git"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fo4Ik-git&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -182,7 +172,6 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="LinkedInJobSaver [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -204,7 +193,6 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="LinkedInJobSaver [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -226,7 +214,6 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <list>
@@ -264,6 +251,7 @@
       <workItem from="1695159602767" duration="14343000" />
       <workItem from="1695702704931" duration="228000" />
       <workItem from="1695702968982" duration="593000" />
+      <workItem from="1697578040213" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="update basic files">
       <created>1694730612902</created>
@@ -488,6 +476,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create application version 1 (have bug in jfxPanel)" />
