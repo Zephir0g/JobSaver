@@ -1,3 +1,23 @@
+/* Suggested Color Palette for JobSaver */
+
+/* Primary Colors */
+.root {
+    --primary-bg: #2C3E50;  /* Dark Blue for Background */
+    --primary-fg: #ECF0F1;  /* Light Gray for Foreground Text */
+
+    /* Secondary Colors */
+    --secondary-bg: #3498DB;  /* Bright Blue for Buttons or Highlights */
+    --secondary-fg: #FFFFFF;  /* White for Text on Bright Blue Background */
+
+    /* Tertiary Colors */
+    --tertiary-bg: #E74C3C;  /* Red for Errors or Warnings */
+    --tertiary-fg: #FFFFFF;  /* White for Text on Red Background */
+
+    /* Neutral Colors */
+    --neutral-light: #BDC3C7;  /* Light Gray for Borders or Dividers */
+    --neutral-dark: #7F8C8D;   /* Dark Gray for Secondary Text or Icons */
+}
+
 /*Main*/
 .list {
     -fx-padding: 0 10px 0 10px;
@@ -11,22 +31,21 @@
 
 .list-cell {
     -fx-background-color: transparent;
-    /*-fx-border-style: none;*/
-    -fx-text-fill: black;
+    -fx-text-fill: var(--primary-fg);
 }
 
 .add-button, .search-clear-button {
     -fx-background-radius: 5px;
     -fx-alignment: CENTER;
-    -fx-text-fill: white;
+    -fx-text-fill: var(--secondary-fg);
 }
 
 .add-button {
-    -fx-background-color: #4CAF50;
+    -fx-background-color: var(--secondary-bg);
 }
 
 .search-clear-button {
-    -fx-background-color: #975800;
+    -fx-background-color: var(--tertiary-bg);
 }
 
 .search-clear-button:hover, .add-button:hover {
@@ -43,28 +62,22 @@
 
 /*Settings*/
 .settings-panel {
-    -fx-background-color: #f5f5f5;
+    -fx-background-color: var(--neutral-light);
 }
 
 .user-settings {
-    /*background-color transparent;*/
-    -fx-background-color: #5b5b5b;
+    -fx-background-color: var(--neutral-dark);
 }
 
-.general-settings {
-    -fx-background-color: #f5f5f5;
-}
-
-.language-settings {
-    -fx-background-color: #f5f5f5;
+.general-settings, .language-settings {
+    -fx-background-color: var(--neutral-light);
 }
 
 /*Job Cell*/
-
 .job-cell, .job-cell:hover {
     -fx-background-radius: 5px;
     -fx-alignment: CENTER;
-    -fx-text-fill: black;
+    -fx-text-fill: var(--primary-fg);
 }
 
 .job-cell:hover {
@@ -85,7 +98,7 @@
 
 .job-header {
     -fx-padding: 0 0 0 10;
-    -fx-text-fill: black;
+    -fx-text-fill: var(--primary-fg);
 }
 
 .job-date {
@@ -96,19 +109,19 @@
 .save-button, .back-button, .delete-button {
     -fx-background-radius: 5px;
     -fx-alignment: CENTER;
-    -fx-text-fill: white;
+    -fx-text-fill: var(--secondary-fg);
 }
 
 .save-button {
-    -fx-background-color: #4CAF50;
+    -fx-background-color: var(--secondary-bg);
 }
 
 .back-button {
-    -fx-background-color: #2a2a2a;
+    -fx-background-color: var(--neutral-dark);
 }
 
 .delete-button {
-    -fx-background-color: #DA564E;
+    -fx-background-color: var(--tertiary-bg);
 }
 
 .back-button:hover, .save-button:hover, .delete-button:hover {
@@ -125,15 +138,15 @@
 .updater-button-apply, .updater-button-cancel {
     -fx-background-radius: 5px;
     -fx-alignment: CENTER;
-    -fx-text-fill: white;
+    -fx-text-fill: var(--secondary-fg);
 }
 
 .updater-button-apply {
-    -fx-background-color: #4CAF50;
+    -fx-background-color: var(--secondary-bg);
 }
 
 .updater-button-cancel {
-    -fx-background-color: #DA564E;
+    -fx-background-color: var(--tertiary-bg);
 }
 
 .updater-button-apply:hover, .updater-button-cancel:hover {
